@@ -1,0 +1,11 @@
+[
+    {
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "app.kamkam.me.imher",
+            "sha256_cert_fingerprints":
+            ["58:C3:D6:CB:53:21:DE:5A:5B:0E:40:5F:38:A5:68:6B:FB:26:25:53:0F:D2:E6:10:7A:0A:64:9D:AE:DF:D5:00"]
+        }
+    }
+]

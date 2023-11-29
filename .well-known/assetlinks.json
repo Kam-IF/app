@@ -5,7 +5,10 @@
             "namespace": "android_app",
             "package_name": "app.kamkam.me.imhere",
             "sha256_cert_fingerprints":
-            ["58:C3:D6:CB:53:21:DE:5A:5B:0E:40:5F:38:A5:68:6B:FB:26:25:53:0F:D2:E6:10:7A:0A:64:9D:AE:DF:D5:00"]
+            [
+                "58:C3:D6:CB:53:21:DE:5A:5B:0E:40:5F:38:A5:68:6B:FB:26:25:53:0F:D2:E6:10:7A:0A:64:9D:AE:DF:D5:00",
+                "03:CD:56:79:41:C6:BD:1B:8A:5C:D1:33:E4:2D:9F:57:BD:5C:5E:6B:0D:87:73:5F:95:FE:08:AD:6F:1B:D3:31"
+            ]
         }
     }
 ]

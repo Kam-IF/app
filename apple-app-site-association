@@ -1,0 +1,19 @@
+diff --git a//Users/usabone/develop/ProjectsAI/imhere/web/apple-app-site-association b//Users/usabone/develop/ProjectsAI/imhere/web/apple-app-site-association
+new file mode 100644
+--- /dev/null
++++ b//Users/usabone/develop/ProjectsAI/imhere/web/apple-app-site-association
+@@ -0,0 +1,14 @@
++{
++  "applinks": {
++    "apps": [],
++    "details": [
++      {
++        "appID": "A366495R45.app.kamkam.me.imhere",
++        "paths": [
++          "/imhere",
++          "/imhere/*"
++        ]
++      }
++    ]
++  }
++}

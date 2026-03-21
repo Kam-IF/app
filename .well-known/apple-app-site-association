@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "A366495R45.app.kamkam.me.imhere",
+        "paths": [
+          "/imhere",
+          "/imhere/*"
+        ]
+      }
+    ]
+  }
+}

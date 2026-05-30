@@ -1,207 +1,170 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<!-- ※1．ウィンドウサイズをデバイスの幅に揃え、スマートフォンで見た際に縮小拡大はできないようにする。表示倍率の最大値を設定する。 -->
-<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
-<link rel="icon" href="favicon.ico">
-<link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
-<title>Android application [Anzan]</title>
-<meta name="description" content="It is a game that remembers the displayed numbers and guesses the order." />
-<meta name="keywords" content="Anzan,Mentalmath,暗算,記憶" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
-<!-- End Google Tag Manager -->
-<!-- ※2．メディアクエリの設定の入ったデフォルトのCSSを読み込む。 -->
-<link rel="stylesheet" type="text/css" href="styles/layout.css" />
-
-<!-- ※3．IE6～8に対応するrespond.jsを入れる。 -->
-<!--[if It IE 9]>
-<script src="js/respond.js"></script>
-<![endif]-->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309485435511985"
-     crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
+  <title>Anzan - Fast Mental Math Brain Training</title>
+  <meta name="description" content="Anzan is a mental math brain training game. Choose addition, subtraction, mixed addition and subtraction, multiplication, or division, then clear 10 questions as fast as you can.">
+  <meta name="keywords" content="Anzan,mental math,brain training,addition,subtraction,multiplication,division,math game">
+  <meta property="og:title" content="Anzan - Train your mental math speed">
+  <meta property="og:description" content="Pick a calculation mode, choose a level, and race through 10 questions. Track your best times and keep improving.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/image_3_02.png">
+  <link rel="alternate" hreflang="ja" href="https://app.kamkam.me/mentalmath/index_jp.html">
+  <link rel="alternate" hreflang="en" href="https://app.kamkam.me/mentalmath/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://app.kamkam.me/mentalmath/index.html">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
+  <!-- End Google Tag Manager -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309485435511985" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMNCK9H"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- header -->
-<div id="header">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMNCK9H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-<!--header_top -->
-<div id="header_top" class="clearfix">
-<div id="logogroup">
-<h1><img src="images/header_rogo.png" height="45" alt="Anzan App" /></h1>
-<p>Anzan</p>
-</div><!--/logogroup -->
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="Anzan Home">
+      <img src="images/header_rogo.png" width="45" height="45" alt="">
+      <span>Anzan</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="./index.html">Home</a>
+      <a href="./news.html">News</a>
+      <a href="./privacypolicy.html">Privacy Policy</a>
+      <span class="language-switch" aria-label="Language switcher">
+        <a class="active" href="./index.html" aria-current="page">English</a>
+        <a href="./index_jp.html" lang="ja">日本語</a>
+      </span>
+    </nav>
+  </header>
 
-<ul id="subnav" class="clearfix">
-<!-- <li class="sitemap"><a href="#">サイトマップ</a></li> -->
-<!-- <li class="rss"><a href="#">RSSフィード</a></li> -->
-</ul>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Brain Series / Mental Math</p>
+        <h1>Calculate faster. Beat your best time.</h1>
+        <p class="lead">Anzan turns quick arithmetic into a focused brain training game. Choose a mode, pick a level, answer 10 questions, and try to clear them faster than before.</p>
+        <div class="hero-actions" aria-label="Download the app">
+          <a class="store-button app-store" href="https://apps.apple.com/us/app/anzan-brain-series/id1625451220">
+            <img src="images/AppStore-De-DownLoad.svg" width="180" alt="Download on the App Store">
+          </a>
+          <!--
+          <a class="store-button google-play" href="https://play.google.com/store/apps/details?id=app.kamkam.me.mentalmath">
+            <img src="images/google-play-badge.png" width="210" alt="Get it on Google Play">
+          </a>
+          -->
+        </div>
+      </div>
+      <div class="hero-media" aria-label="Anzan gameplay screens">
+        <img class="phone phone-back" src="images/image_2_04.png" width="144" height="320" alt="Mode selection screen">
+        <img class="phone phone-front" src="images/image_3_02.png" width="144" height="320" alt="Answer input screen">
+      </div>
+    </section>
 
-</div>
-<!--/header_top -->
+    <section class="stats-band" aria-label="App highlights">
+      <div>
+        <strong>5</strong>
+        <span>Calculation modes</span>
+      </div>
+      <div>
+        <strong>6</strong>
+        <span>Levels per mode</span>
+      </div>
+      <div>
+        <strong>10</strong>
+        <span>Questions to clear</span>
+      </div>
+    </section>
 
-<ul id="nav" class="clearfix">
-<!-- ※4．PCの際に表示するグローバルナビに表示・非表示を切り替えるclassをつける。 -->
-<li class="pc"><a href="./index.html"><img src="images/nav_home.gif" width="159" height="32" alt="HOME" /></a></li>
-<li class="pc"><a href="./news.html"><img src="images/nav_news.gif" width="160" height="32" alt="NEWS" /></a></li>
+    <section class="section feature-section">
+      <div class="section-heading">
+        <p class="eyebrow">How It Works</p>
+        <h2>Simple rules. Real concentration.</h2>
+        <p>Pick the kind of calculation you want to train, select a level from 1 to 6, then solve each question with the on-screen keypad. The timer keeps the pressure light, clear, and motivating.</p>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <img src="images/image_2_04.png" width="144" height="320" alt="Calculation mode selection">
+          <div>
+            <span class="step-number">01</span>
+            <h3>Choose a mode</h3>
+            <p>Train addition, subtraction, mixed addition and subtraction, multiplication, or division.</p>
+          </div>
+        </article>
+        <article class="step">
+          <img src="images/image_2_05.png" width="144" height="320" alt="Level selection">
+          <div>
+            <span class="step-number">02</span>
+            <h3>Pick your level</h3>
+            <p>Start with single-digit calculations, then move up to larger numbers as your speed improves.</p>
+          </div>
+        </article>
+        <article class="step">
+          <img src="images/image_3_04.png" width="144" height="320" alt="Clear result screen">
+          <div>
+            <span class="step-number">03</span>
+            <h3>Clear 10 questions</h3>
+            <p>Answer 10 questions correctly to clear the level and record your completion time.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<!-- ※4．タブレットとスマートフォンの際に表示するグローバルナビに表示・非表示を切り替えるclassをつける。 -->
-<li class="nonpc"><a href="./index.html"><img src="images/nav_home2.gif" width="128" height="38" alt="HOME" /></a></li>
-<li class="nonpc"><a href="./news.html"><img src="images/nav_news2.gif" width="128" height="38" alt="NEWS" /></a></li>
-</ul>
-</div>
-<!-- /header -->
+    <section class="section modes-section">
+      <div class="section-heading compact">
+        <p class="eyebrow">Training Modes</p>
+        <h2>Five ways to sharpen your mental math.</h2>
+      </div>
+      <div class="mode-grid">
+        <div class="mode-item"><span>+</span><strong>Addition</strong><small>Build fast number sense</small></div>
+        <div class="mode-item"><span>-</span><strong>Subtraction</strong><small>Keep your focus under pressure</small></div>
+        <div class="mode-item"><span>±</span><strong>Mixed</strong><small>Switch between adding and subtracting</small></div>
+        <div class="mode-item"><span>×</span><strong>Multiplication</strong><small>Practice quick products</small></div>
+        <div class="mode-item"><span>÷</span><strong>Division</strong><small>Solve clean division questions</small></div>
+        <div class="mode-item"><span>Lv</span><strong>Level 1-6</strong><small>From single digits to harder problems</small></div>
+      </div>
+    </section>
 
-<!-- contents -->
-<div id="contents" class="clearfix">
+    <section class="section progress-section">
+      <div class="progress-copy">
+        <p class="eyebrow">Progress</p>
+        <h2>Your best time gives you a reason to come back.</h2>
+        <p>Register your name, play a level, and Anzan saves your records. Check your history, compare your best times by mode and level, and keep chasing the next personal best.</p>
+      </div>
+      <div class="progress-media">
+        <img src="images/image_4_02.png" width="144" height="320" alt="Best score screen">
+        <img src="images/image_4_03.png" width="144" height="320" alt="All history screen">
+      </div>
+    </section>
 
-<!--info -->
-<div id="info">
-<!-- event -->
-<div id="event" class="clearfix">
-<h2>Game Start</h2>
+    <section class="download-section" id="download">
+      <div>
+        <p class="eyebrow">Download</p>
+        <h2>Start a quick mental math challenge today.</h2>
+      </div>
+      <div class="download-actions" aria-label="Download the app">
+        <a class="store-button app-store" href="https://apps.apple.com/us/app/anzan-brain-series/id1625451220">
+          <img src="images/AppStore-De-DownLoad.svg" width="180" alt="Download on the App Store">
+        </a>
+        <!--
+        <a class="store-button google-play" href="https://play.google.com/store/apps/details?id=app.kamkam.me.mentalmath">
+          <img src="images/google-play-badge.png" width="210" alt="Get it on Google Play">
+        </a>
+        -->
+      </div>
+    </section>
+  </main>
 
-<div class="section clearfix">
-<h3>Launch the app.</h3>
-<img src="images/image_2_01.png" width="144" height="320" alt="" />
-<p>①<br/>Tap the "Game" icon in the bottom. If you have not entered your name, first register your name.<br/><br/>中央の「Game」アイコンをタップ。名前が未入力なら、まずは名前を登録。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Enter your name.</h3>
-<img src="images/image_2_02.png" width="144" height="320" alt="" />
-<p>②<br/>Enter your name.<br/>After entering, tap the back "←" icon.<br/><br/>案内にしたがって名前を入力。<br/>入力したら、戻る「←」アイコンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Tap the "Game" icon.</h3>
-<img src="images/image_2_03.png" width="144" height="320" alt="" />
-<p>③<br/>Tap the "Game" icon in the bottom. <br/><br/>中央の「Game」アイコンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>6 difficulties.</h3>
-<img src="images/image_2_04.png" width="144" height="320" alt="" />
-<p>④<br/>You can choose from five mode.<br/>・Addition<br/>・Subtraction<br/>・Addition and Subtraction<br/>・Multiplication<br/>・Division<br/><br/>５つのモードから選べます。<br/>・足し算<br/>・引き算<br/>・足し算 と 引き算<br/>・掛け算<br/>・割り算 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Level from 1 to 6 (MAX).</h3>
-<img src="images/image_2_05.png" width="144" height="320" alt="" />
-<p>⑤<br/>You can choose the level from 1 to 6 (MAX).<br/>Tap the "Start" icon to start the game.<br/><br/>レベルは１～６(MAX)から選べます。<br/>「スタート」アイコンをタップすると、ゲームがスタートします。</p>
-</div>
-
-
-</div>
-<!-- /event -->
-
-<!-- event -->
-<div id="event" class="clearfix">
-<h2>Play Game</h2>
-
-<div class="section clearfix">
-<h3>Start the game.</h3>
-<img src="images/image_3_01.png" width="144" height="320" alt="" />
-<p>①<br/>The calculation formula is displayed.<br/><br/>計算式が表示されます。</p>
-</div>
-
-<div class="section clearfix">
-<h3>Solve the calculation.</h3>
-<img src="images/image_3_02.png" width="144" height="320" alt="" />
-<p>②<br/>Solve the calculation, <br/>Tap the number and enter your answer.<br/><br/>計算を解き、<br/>数字をタップして答えを入力します。<br/> </p>
-</div>
-
-<div class="section clearfix">
-<h3>Answer correctly.</h3>
-<img src="images/image_3_03.png" width="144" height="320" alt="" />
-<p>③<br/>If you answer correctly,<br/>you will see the next calculation formula.<br/><br/>正解（せいかい）すると<br/>次の計算式が表示されます。<br/> </p>
-</div>
-
-<div class="section clearfix">
-<h3>Clear the game.</h3>
-<img src="images/image_3_04.png" width="144" height="320" alt="" />
-<p>④<br/>If you answer 10 calculation formulas correctly, <br/>you clear the game.<br/><br/>１０問正解（せいかい）するとクリア！！ </p>
-</div>
-
-<div class="section clearfix">
-<h3>Let's do your best.</h3>
-<img src="images/image_3_05.png" width="144" height="320" alt="" />
-<p>⑤<br/>Let's do your best to update the Best score!!<br/><br/>Bestスコアの更新めざしてがんばろう！！ </p>
-</div>
-
-</div>
-<!-- /event -->
-
-<!-- event -->
-<div id="event" class="clearfix">
-<h2>Clear the game data.</h2>
-
-<div class="section clearfix">
-<h3>Tap the "History".</h3>
-<img src="images/image_4_01.png" width="144" height="320" alt="" />
-<p>①<br/>Tap the "History" icon in the bottom. <br/><br/>中央の「History」アイコンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Tap the "All History".</h3>
-<img src="images/image_4_02.png" width="144" height="320" alt="" />
-<p>②<br/>You can see the best score of five mode.<br/>Tap the "All History" button in the bottom. <br/><br/>５つのモードの最高のスコアを見ることができます。<br/>中央の「All History」ボタンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>All history</h3>
-<img src="images/image_4_03.png" width="144" height="320" alt="" />
-<p>③<br/>You can see all your records.<br/><br/>あなたのすべての記録を見ることができます。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Delete history.</h3>
-<img src="images/image_4_04.png" width="144" height="320" alt="" />
-<p>④<br/>Slide one recorde. <br/>You can delete a record. <br/><br/>1つのレコードをスライドします。<br/>レコードを削除できます。 </p>
-</div>
-
-</div>
-<!-- /event -->
-
-</div>
-<!--/info -->
-
-<!-- sidebar -->
-<div id="sidebar">
-<div id="sidebox">
-<h2><img src="images/title_01.png" width="178" height="15" alt="" /></h2>
-<p>Get it on App Store or Google Play</p>
-</div>
-<!-- /sidebox --> 
-<ul id="bnrarea">
-<li><a href='https://apps.apple.com/us/app/anzan-brain-series/id1625451220'><img src="images/AppStore-De-DownLoad.svg" width="231" alt="" /></a></li>
-<li><a href='https://play.google.com/store/apps/details?id=app.kamkam.me.mentalmath'><img alt='Get it on Google Play' src='https://play.google.com/intl/ja/badges/static/images/badges/en_badge_web_generic.png' width="231"/></a></li>
-</ul>
-</div>
-<!-- /sidebar --> 
-
-</div>
-<!-- /contents -->
-
-<!-- footer -->
-<div id="footer">
-<!--footer_inner -->
-<div id="footer_inner">
-<p>&copy; 2022 KAMKAM</p>
-</div>
-<!--/footer_inner -->
-</div>
-<!-- /footer -->
-
+  <footer class="site-footer">
+    <p>&copy; 2022 KAMKAM</p>
+  </footer>
 </body>
 </html>

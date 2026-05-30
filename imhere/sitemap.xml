@@ -4,17 +4,27 @@
 <url>
   <loc>https://app.kamkam.me/imhere/</loc>
   <priority>1.0</priority>
-  <lastmod>2022-01-25T02:52:05+09:00</lastmod>
+  <lastmod>2026-05-30T00:00:00+09:00</lastmod>
 </url>
 <url>
   <loc>https://app.kamkam.me/imhere/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2022-01-25T02:52:05+09:00</lastmod>
+  <lastmod>2026-05-30T00:00:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://app.kamkam.me/imhere/index_jp.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2026-05-30T00:00:00+09:00</lastmod>
 </url>
 <url>
   <loc>https://app.kamkam.me/imhere/news.html</loc>
   <priority>0.8</priority>
-  <lastmod>2022-01-25T02:52:05+09:00</lastmod>
+  <lastmod>2026-05-30T00:00:00+09:00</lastmod>
+</url>
+<url>
+  <loc>https://app.kamkam.me/imhere/news_jp.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2026-05-30T00:00:00+09:00</lastmod>
 </url>
 
 </urlset>

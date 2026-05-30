@@ -1,206 +1,170 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<!-- ※1．ウィンドウサイズをデバイスの幅に揃え、スマートフォンで見た際に縮小拡大はできないようにする。表示倍率の最大値を設定する。 -->
-<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
-<link rel="icon" href="favicon.ico">
-<link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
-<title>Android application [Memorize]</title>
-<meta name="description" content="It is a game that remembers the displayed numbers and guesses the order." />
-<meta name="keywords" content="Anki,Memorize,暗記,記憶" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
-<!-- End Google Tag Manager -->
-<!-- ※2．メディアクエリの設定の入ったデフォルトのCSSを読み込む。 -->
-<link rel="stylesheet" type="text/css" href="styles/layout.css" />
-
-<!-- ※3．IE6～8に対応するrespond.jsを入れる。 -->
-<!--[if It IE 9]>
-<script src="js/respond.js"></script>
-<![endif]-->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309485435511985"
-     crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
+  <title>Memorize - A Brain Training Game for Remembering Number Sequences</title>
+  <meta name="description" content="Memorize is a simple brain training game where you remember the order of displayed numbers and tap them back. Challenge 6 difficulties and 43 levels on iOS and Android.">
+  <meta name="keywords" content="Anki,Memorize,memory,brain training,numbers,game">
+  <meta property="og:title" content="Memorize - Remember the order, then tap it back">
+  <meta property="og:description" content="Watch the numbers, remember their order, and tap them back. A focused memory challenge with 6 difficulties and 43 levels.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/image_3_03.png">
+  <link rel="alternate" hreflang="ja" href="https://app.kamkam.me/memorize/index_jp.html">
+  <link rel="alternate" hreflang="en" href="https://app.kamkam.me/memorize/index.html">
+  <link rel="alternate" hreflang="x-default" href="https://app.kamkam.me/memorize/index.html">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
+  <!-- End Google Tag Manager -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309485435511985" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMNCK9H"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- header -->
-<div id="header">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMNCK9H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-<!--header_top -->
-<div id="header_top" class="clearfix">
-<div id="logogroup">
-<h1><img src="images/header_rogo.png" height="45" alt="Memorize App" /></h1>
-<p>Memorize</p>
-</div><!--/logogroup -->
+  <header class="site-header">
+    <a class="brand" href="./index.html" aria-label="Memorize Home">
+      <img src="images/header_rogo.png" width="45" height="45" alt="">
+      <span>Memorize</span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="./index.html">Home</a>
+      <a href="./news.html">News</a>
+      <a href="./privacypolicy.html">Privacy Policy</a>
+      <span class="language-switch" aria-label="Language switcher">
+        <a class="active" href="./index.html" aria-current="page">English</a>
+        <a href="./index_jp.html" lang="ja">日本語</a>
+      </span>
+    </nav>
+  </header>
 
-<ul id="subnav" class="clearfix">
-<!-- <li class="sitemap"><a href="#">サイトマップ</a></li> -->
-<!-- <li class="rss"><a href="#">RSSフィード</a></li> -->
-</ul>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Brain Series / Memory Game</p>
+        <h1>Remember the order. Train your focus.</h1>
+        <p class="lead">Watch the numbers appear, then tap them back in the same order after they disappear. Memorize is a simple memory game built for short, focused challenges.</p>
+        <div class="hero-actions" aria-label="Download the app">
+          <a class="store-button app-store" href="https://apps.apple.com/us/app/anki-brain-series/id6757677385">
+            <img src="images/AppStore-De-DownLoad.svg" width="180" alt="Download on the App Store">
+          </a>
+          <!--
+          <a class="store-button google-play" href="https://play.google.com/store/apps/details?id=app.kamkam.me.memorize">
+            <img src="images/google-play-badge.png" width="210" alt="Get it on Google Play">
+          </a>
+        -->
+        </div>
+      </div>
+      <div class="hero-media" aria-label="Memorize gameplay screens">
+        <img class="phone phone-back" src="images/image_3_02.png" width="144" height="320" alt="Game screen showing numbers one by one">
+        <img class="phone phone-front" src="images/image_3_03.png" width="144" height="320" alt="Game screen for tapping the remembered number order">
+      </div>
+    </section>
 
-</div>
-<!--/header_top -->
+    <section class="stats-band" aria-label="App highlights">
+      <div>
+        <strong>6</strong>
+        <span>Difficulty modes</span>
+      </div>
+      <div>
+        <strong>43</strong>
+        <span>Levels to clear</span>
+      </div>
+      <div>
+        <strong>iOS / Android</strong>
+        <span>Play on your phone</span>
+      </div>
+    </section>
 
-<ul id="nav" class="clearfix">
-<!-- ※4．PCの際に表示するグローバルナビに表示・非表示を切り替えるclassをつける。 -->
-<li class="pc"><a href="./index.html"><img src="images/nav_home.gif" width="159" height="32" alt="HOME" /></a></li>
-<li class="pc"><a href="./news.html"><img src="images/nav_news.gif" width="160" height="32" alt="NEWS" /></a></li>
+    <section class="section feature-section">
+      <div class="section-heading">
+        <p class="eyebrow">How It Works</p>
+        <h2>Easy to start. Hard to master.</h2>
+        <p>The game begins with fewer numbers. As your level rises, the display speed gets faster, turning a tiny break into a sharp memory challenge.</p>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <img src="images/image_3_02.png" width="144" height="320" alt="Numbers appearing in order">
+          <div>
+            <span class="step-number">01</span>
+            <h3>Watch the numbers</h3>
+            <p>Numbers appear one after another. Keep their order in your head.</p>
+          </div>
+        </article>
+        <article class="step">
+          <img src="images/image_3_03.png" width="144" height="320" alt="Answering by tapping numbers">
+          <div>
+            <span class="step-number">02</span>
+            <h3>Tap them back</h3>
+            <p>When the display ends, tap the numbers in the order you remember.</p>
+          </div>
+        </article>
+        <article class="step">
+          <img src="images/image_3_05.png" width="144" height="320" alt="Higher level gameplay screen">
+          <div>
+            <span class="step-number">03</span>
+            <h3>Level up</h3>
+            <p>Each difficulty has levels 1 to 43. The higher you go, the faster the game becomes.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<!-- ※4．タブレットとスマートフォンの際に表示するグローバルナビに表示・非表示を切り替えるclassをつける。 -->
-<li class="nonpc"><a href="./index.html"><img src="images/nav_home2.gif" width="128" height="38" alt="HOME" /></a></li>
-<li class="nonpc"><a href="./news.html"><img src="images/nav_news2.gif" width="128" height="38" alt="NEWS" /></a></li>
-</ul>
-</div>
-<!-- /header -->
+    <section class="section modes-section">
+      <div class="section-heading compact">
+        <p class="eyebrow">Difficulty</p>
+        <h2>Choose from 6 modes to match your focus.</h2>
+      </div>
+      <div class="mode-grid">
+        <div class="mode-item"><span>1</span><strong>Easy</strong><small>Start with 4 numbers</small></div>
+        <div class="mode-item"><span>2</span><strong>Normal</strong><small>Challenge 5 numbers</small></div>
+        <div class="mode-item"><span>3</span><strong>Hard</strong><small>Remember 6 numbers</small></div>
+        <div class="mode-item"><span>4</span><strong>Very Hard</strong><small>Focus on 7 numbers</small></div>
+        <div class="mode-item"><span>5</span><strong>Super Hard</strong><small>Take on 8 numbers</small></div>
+        <div class="mode-item"><span>6</span><strong>Very Super Hard</strong><small>Push yourself with 9 numbers</small></div>
+      </div>
+    </section>
 
-<!-- contents -->
-<div id="contents" class="clearfix">
+    <section class="section progress-section">
+      <div class="progress-copy">
+        <p class="eyebrow">Progress</p>
+        <h2>Your best level stays with you.</h2>
+        <p>After registering a name, the app saves your highest level for each difficulty. Come back and try to beat yesterday's record, one level at a time.</p>
+      </div>
+      <div class="progress-media">
+        <img src="images/image_2_04.png" width="144" height="320" alt="Difficulty selection screen">
+        <img src="images/image_4_01.png" width="144" height="320" alt="Settings screen">
+      </div>
+    </section>
 
-<!--info -->
-<div id="info">
-<!-- event -->
-<div id="event" class="clearfix">
-<h2>Game Start</h2>
+    <section class="download-section" id="download">
+      <div>
+        <p class="eyebrow">Download</p>
+        <h2>Start your memory challenge today.</h2>
+      </div>
+      <div class="download-actions" aria-label="Download the app">
+        <a class="store-button app-store" href="https://apps.apple.com/us/app/anki-brain-series/id6757677385">
+          <img src="images/AppStore-De-DownLoad.svg" width="180" alt="Download on the App Store">
+        </a>
+        <!--
+        <a class="store-button google-play" href="https://play.google.com/store/apps/details?id=app.kamkam.me.memorize">
+          <img src="images/google-play-badge.png" width="210" alt="Get it on Google Play">
+        </a>
+      -->
+      </div>
+    </section>
+  </main>
 
-<div class="section clearfix">
-<h3>Launch the app.</h3>
-<img src="images/image_2_01.png" width="144" height="320" alt="" />
-<p>①<br/>Tap the "Game" icon in the bottom. If you have not entered your name, first register your name.<br/><br/>中央の「Game」アイコンをタップ。名前が未入力なら、まずは名前を登録。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Enter a name.</h3>
-<img src="images/image_2_02.png" width="144" height="320" alt="" />
-<p>②<br/>Enter your name.<br/>After entering, tap the back "←" icon.<br/><br/>案内にしたがって名前を入力。<br/>入力したら、戻る「←」アイコンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Tap the "Game" icon.</h3>
-<img src="images/image_2_03.png" width="144" height="320" alt="" />
-<p>③<br/>Tap the "Game" icon in the bottom. <br/><br/>中央の「Game」アイコンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>6 difficulties.</h3>
-<img src="images/image_2_04.png" width="144" height="320" alt="" />
-<p>④<br/>You can choose from 6 difficulties.<br/>・Easy<br/>・Normal<br/>・Hard<br/>・Very Hard<br/>・Super Hard<br/>・Very Super Hard<br/><br/>６つの難しさから選べます。<br/>・簡単<br/>・普通<br/>・難しい<br/>・とても難しい<br/>・超難しい<br/>・超激難しい </p>
-</div>
-
-</div>
-<!-- /event -->
-
-<!-- event -->
-<div id="event" class="clearfix">
-<h2>Mode Select</h2>
-
-<div class="section clearfix">
-<h3>Level from 1 to 43 (MAX).</h3>
-<img src="images/image_3_01.png" width="144" height="320" alt="" />
-<p>①<br/>You can choose the level from 1 to 43 (MAX).<br/>Tap the "Start" icon to start the game.<br/><br/>レベルは１～４３(MAX)から選べます。<br/>「スタート」アイコンをタップすると、ゲームがスタートします。</p>
-</div>
-
-<div class="section clearfix">
-<h3>Start the game.</h3>
-<img src="images/image_3_02.png" width="144" height="320" alt="" />
-<p>②<br/>The numbers are displayed in order.<br/><br/>番号が順番に表示されます。</p>
-</div>
-
-<div class="section clearfix">
-<h3>Remember the order .</h3>
-<img src="images/image_3_03.png" width="144" height="320" alt="" />
-<p>③<br/>When you have finished displaying the numbers, <br/>remember the order in which they were displayed <br/>and tap the numbers in that order.<br/><br/>番号の表示が終わったら、<br/>表示された順番を思い出して、<br/>順番通りに番号をタップして下さい。<br/> </p>
-</div>
-
-<div class="section clearfix">
-<h3>Lv up.</h3>
-<img src="images/image_3_04.png" width="144" height="320" alt="" />
-<p>④<br/>If you answer correctly,<br/>you will be able to choose the next level.<br/><br/>正解（せいかい）すると<br/>次のレベルが選べるようになるよ。<br/> </p>
-</div>
-
-<div class="section clearfix">
-<h3>Speed up.</h3>
-<img src="images/image_3_05.png" width="144" height="320" alt="" />
-<p>⑤<br/>Speed up as the level goes up!!<br/><br/>レベルがあがるとスピードアップ！！ </p>
-</div>
-
-<div class="section clearfix">
-<h3>Let's do your best.</h3>
-<img src="images/image_3_06.png" width="144" height="320" alt="" />
-<p>⑥<br/>Let's do your best to reach level MAX!!<br/><br/>レベルMAXめざしてがんばろう！！ </p>
-</div>
-
-</div>
-<!-- /event -->
-
-<!-- event -->
-<div id="event" class="clearfix">
-<h2>Clear the game data.</h2>
-
-<div class="section clearfix">
-<h3>Tap the "Settings".</h3>
-<img src="images/image_4_01.png" width="144" height="320" alt="" />
-<p>①<br/>Tap the "Settings" icon in the bottom. <br/><br/>中央の「Settings」アイコンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Tap the button.</h3>
-<img src="images/image_4_02.png" width="144" height="320" alt="" />
-<p>②<br/>Tap the "Clear the game data" button.<br/><br/>「Clear the game data」ボタンをタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Confirm dialog.</h3>
-<img src="images/image_4_03.png" width="144" height="320" alt="" />
-<p>③<br/>In the confirmation dialog, tap Yes. <br/><br/>確認ダイアログで「はい」をタップ。 </p>
-</div>
-
-<div class="section clearfix">
-<h3>Cleared.</h3>
-<img src="images/image_4_04.png" width="144" height="320" alt="" />
-<p>④<br/>The entered "name" and game record will be cleared. <br/><br/>入力した「名前」とゲーム記録がクリアされます。</p>
-</div>
-
-</div>
-<!-- /event -->
-</div>
-<!--/info -->
-
-
-<!-- sidebar -->
-<div id="sidebar">
-<div id="sidebox">
-<h2><img src="images/title_01.png" width="178" height="15" alt="" /></h2>
-<p>Get it on Google Play</p>
-</div>
-<!-- /sidebox --> 
-<ul id="bnrarea">
-<li><a href='https://apps.apple.com/us/app/anki-brain-series/id6757677385'><img src="images/AppStore-De-DownLoad.svg" width="231" alt="" /></a></li>
-<li><a href='https://play.google.com/store/apps/details?id=app.kamkam.me.memorize'><img alt='Get it on Google Play' src='https://play.google.com/intl/ja/badges/static/images/badges/en_badge_web_generic.png' width="231"/></a></li>
-</ul>
-</div>
-<!-- /sidebar --> 
-
-</div>
-<!-- /contents -->
-
-<!-- footer -->
-<div id="footer">
-<!--footer_inner -->
-<div id="footer_inner">
-<p>&copy; 2022 KAMKAM</p>
-</div>
-<!--/footer_inner -->
-</div>
-<!-- /footer -->
-
+  <footer class="site-footer">
+    <p>&copy; 2022 KAMKAM</p>
+  </footer>
 </body>
 </html>

@@ -1,43 +1,200 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<!-- ※1．ウィンドウサイズをデバイスの幅に揃え、スマートフォンで見た際に縮小拡大はできないようにする。表示倍率の最大値を設定する。 -->
-<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
-<link rel="icon" href="favicon.ico">
-<link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
-<title>Application [OkiniIre]</title>
-<meta name="description" content="Organize Favorites by Tree" />
-<meta name="keywords" content="favorites,collection,お気に入り,コレクション" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
-<!-- End Google Tag Manager -->
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309485435511985"
-     crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OkiniIre - Organize favorites in a tree, find them by search</title>
+  <meta name="description" content="OkiniIre is a simple tree-style favorites organizer for saving, grouping, and rediscovering links, wish list ideas, places, notes, and photos — now with keyword and photo search to find any item fast.">
+  <meta name="keywords" content="OkiniIre,favorites tree,favorites app,collection organizer,notes,images,search">
+  <meta property="og:title" content="OkiniIre - Organize favorites in a tree, find them by search">
+  <meta property="og:description" content="Give favorite things a clean, flexible home with groups, subgroups, notes, multiple images, thumbnails, reordering, item moves, and keyword/photo search.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/app_icon.png">
+  <link rel="icon" href="images/app_icon.png">
+  <link rel="apple-touch-icon" href="images/app_icon.png">
+  <link rel="alternate" hreflang="ja" href="index_jp.html">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MMNCK9H');</script>
+  <!-- End Google Tag Manager -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5309485435511985" crossorigin="anonymous"></script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMNCK9H"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- header -->
-<div id="header">
-<p>OkiniIre</p>
-</div>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMNCK9H" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-<div id="sidebar">
-<a href='https://apps.apple.com/us/app/okiniire/id6772562081'><img src="images/AppStore-De-DownLoad.svg" width="231" alt="" /></a>
-</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="OkiniIre home">
+      <img src="images/app_icon.png" alt="" width="42" height="42">
+      <span>OkiniIre</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#search">Search</a>
+      <a href="#use-cases">Use cases</a>
+      <a href="privacypolicy.html">Privacy</a>
+      <a class="language-link" href="index_jp.html" lang="ja">日本語</a>
+    </nav>
+  </header>
 
-<div id="footer">
-<p>&copy; 2026 KAMKAM</p>
-</div>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Favorites Tree for iPhone</p>
+        <h1>Give every favorite a clean, flexible home.</h1>
+        <p class="lead">OkiniIre is a simple tree-style organizer for saving, grouping, and rediscovering the links, wish list ideas, places, photos, notes, and collections you care about.</p>
+        <div class="hero-actions">
+          <a class="store-badge" href="https://apps.apple.com/us/app/okiniire/id6772562081" aria-label="Download OkiniIre on the App Store">
+            <img src="images/AppStore-De-DownLoad.svg" alt="Download on the App Store" width="180">
+          </a>
+          <a class="secondary-action" href="#features">See what it does</a>
+        </div>
+      </div>
 
+      <div class="phone" aria-label="OkiniIre app preview">
+        <div class="phone-speaker"></div>
+        <div class="app-screen">
+          <div class="app-bar">
+            <span>Home</span>
+            <span class="home-icon" aria-hidden="true">+</span>
+          </div>
+          <div class="tree-item folder">
+            <span class="item-icon" aria-hidden="true">Folder</span>
+            <div>
+              <strong>Restaurants</strong>
+              <small>Group</small>
+            </div>
+          </div>
+          <div class="tree-item folder">
+            <span class="item-icon" aria-hidden="true">Folder</span>
+            <div>
+              <strong>Books to buy</strong>
+              <small>Group</small>
+            </div>
+          </div>
+          <div class="tree-item">
+            <span class="thumb" aria-hidden="true"></span>
+            <div>
+              <strong>Weekend cafe</strong>
+              <small>Item with photos</small>
+            </div>
+          </div>
+          <div class="detail-card">
+            <div class="photo-strip">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <strong>Gift ideas</strong>
+            <p>Notes, photos, and a place in your tree.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">Why OkiniIre</p>
+        <h2>That feeling of forgetting what you actually liked.</h2>
+      </div>
+      <div class="story-grid">
+        <figure>
+          <img src="images/concept/problem.jpg" alt="A shopper standing in a coffee aisle, unsure which one was his favorite" width="1200" height="654">
+          <figcaption>Standing in the aisle, unsure which one was the favorite.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/concept/app.jpg" alt="The same shopper checking his OkiniIre favorites list on his phone" width="1200" height="654">
+          <figcaption>Open OkiniIre, and your favorite is right there.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/concept/solution.jpg" alt="The shopper confidently picking the right coffee for his basket" width="1200" height="625">
+          <figcaption>Pick the right one with confidence, every time.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-band" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">Built from the app implementation</p>
+        <h2>When a flat list gets messy, build a tree instead.</h2>
+      </div>
+      <div class="feature-grid">
+        <article>
+          <span class="feature-icon" aria-hidden="true">Tree</span>
+          <h3>Groups and subgroups</h3>
+          <p>Start from Home and create a tree-style structure that keeps favorites tidy and easy to find.</p>
+        </article>
+        <article>
+          <span class="feature-icon" aria-hidden="true">Note</span>
+          <h3>Notes and images</h3>
+          <p>Each item can include a display name, optional notes, and multiple images from your device or camera.</p>
+        </article>
+        <article>
+          <span class="feature-icon" aria-hidden="true">Move</span>
+          <h3>Flexible organizing</h3>
+          <p>View thumbnails in the list, drag to reorder, and move items between groups as your collection changes.</p>
+        </article>
+        <article>
+          <span class="feature-icon" aria-hidden="true">Lang</span>
+          <h3>English and Japanese</h3>
+          <p>OkiniIre supports English and Japanese so the app feels natural in either language.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="split-section" id="search">
+      <div>
+        <p class="eyebrow">New: Search</p>
+        <h2>Find it before you forget where you put it.</h2>
+        <p>Can't remember which group you filed something in? Tap the search icon on any list and look it up — by name, or by a photo you already saved.</p>
+      </div>
+      <ul class="use-list">
+        <li><span>01</span> Search by keyword to find items by name, wherever they're stored.</li>
+        <li><span>02</span> Search by photo to find items that use the exact same picture you already saved.</li>
+        <li><span>03</span> The matching item is highlighted the moment you find it.</li>
+        <li><span>04</span> Coming soon: smarter photo matching that recognizes the same subject from a different angle or lighting.</li>
+      </ul>
+    </section>
+
+    <section class="split-section" id="use-cases">
+      <div>
+        <p class="eyebrow">Use it for</p>
+        <h2>For the things that deserve more than a bookmark.</h2>
+        <p>Use OkiniIre for links, wish list ideas, places to visit, reference photos, notes, and personal collections that become hard to manage when they are all mixed into one flat list.</p>
+      </div>
+      <ul class="use-list">
+        <li><span>01</span> Save favorites as groups and items.</li>
+        <li><span>02</span> Add written context with optional notes.</li>
+        <li><span>03</span> Keep multiple images with each item.</li>
+        <li><span>04</span> Reorder and move items when your tree evolves.</li>
+      </ul>
+    </section>
+
+    <section class="download-band" id="download">
+      <img src="images/app_icon.png" alt="OkiniIre app icon" width="92" height="92">
+      <div>
+        <p class="eyebrow">Download</p>
+        <h2>Build your own personal collection.</h2>
+        <p>Keep visual details and written context together, then get back to what matters faster.</p>
+      </div>
+      <a class="store-badge" href="https://apps.apple.com/us/app/okiniire/id6772562081" aria-label="Download OkiniIre on the App Store">
+        <img src="images/AppStore-De-DownLoad.svg" alt="Download on the App Store" width="180">
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 KAMKAM</p>
+    <div>
+      <a href="privacypolicy.html">Privacy Policy</a>
+      <a href="index_jp.html" lang="ja">日本語</a>
+    </div>
+  </footer>
 </body>
 </html>

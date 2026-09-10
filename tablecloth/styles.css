@@ -407,6 +407,22 @@ h3 {
   color: #fff;
 }
 
+.store-link {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: #fff;
+  color: #0d1b30;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background 160ms ease, transform 160ms ease;
+}
+
+.store-link:hover {
+  background: var(--mint);
+  transform: translateY(-1px);
+}
+
 .download-band .eyebrow,
 .download-band p {
   color: #b9d3ff;

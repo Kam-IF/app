@@ -3,6 +3,9 @@
 `fav_list_ai/website` のデザインを踏襲している。**構造とクラス名はそのまま**で、
 配色だけをアプリの identity（起動画像の青と金）へ差し替えた。
 
+App Store: <https://apps.apple.com/app/id6806810305>
+（**ストアフロントを指定しない形**を使う。Apple が閲覧者の国のストアへ振り分ける）
+
 ## 中身
 
 | ファイル | 内容 |
@@ -11,7 +14,7 @@
 | `privacypolicy.html` / `privacypolicy_jp.html` | プライバシーポリシー（英語 / 日本語） |
 | `styles.css` | 参照元から複製し、配色とスクリーンショットの並びを足した |
 | `app-ads.txt` | **AdMob の収益に必要。** 参照元と同じ発行者ID |
-| `images/screenshots/` | 実機のスクリーンショット（`store/screenshots/ios-6.9/` を長辺900pxへ縮小） |
+| `images/screenshots/en/` `images/screenshots/ja/` | 画面のスクリーンショット。`store/screenshots/source/<lang>/` を `sips -Z 900` で長辺900pxへ縮小したもの（414×900）。**言語ごとに分けてある**（英語ページは `en/`、日本語ページは `ja/`）。以前は日本語版1組だけを両方のページで使っており、英語ページに日本語の画面が出ていた |
 
 ## 参照元との違い
 

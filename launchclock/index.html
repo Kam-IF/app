@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#06122B">
+  <title>LaunchClock - Rocket launches worldwide in your local time</title>
+  <meta name="description" content="LaunchClock shows rocket launches from around the world in your local time, highlights launches from your own country or region, and reminds you before liftoff. English and Japanese. No ads, no accounts.">
+  <meta property="og:title" content="LaunchClock - Rocket launches worldwide in your local time">
+  <meta property="og:description" content="Every upcoming rocket launch in your local time, your country or region highlighted, with a reminder before liftoff.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/app_icon.png">
+  <link rel="icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="images/app_icon.png">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="ja" href="index_jp.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="LaunchClock home">
+      <img src="images/app_icon.png" alt="" width="42" height="42">
+      <span>LaunchClock</span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html#features">Features</a><a href="index.html#screenshots">Screenshots</a><a href="index.html#support">Support</a><a href="index.html#sources">Data sources</a>
+      <a href="privacypolicy.html">Privacy</a>
+      <a class="language-link" href="index_jp.html" lang="ja">日本語</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Rocket launch schedule</p>
+      <h1>Every launch, in your local time.</h1>
+      <p class="lead">LaunchClock lists upcoming rocket launches from around the world and shows each one in your local time. Launches from your own country or region stand out, and you can get a reminder before liftoff.</p>
+      <div class="hero-actions">
+        <span class="store-soon">App Store: Coming soon</span>
+        <a class="secondary-action" href="#support">Support</a>
+      </div>
+    </section>
+
+    <section class="content-band alt" id="features">
+      <div class="section-heading"><h2>What it does</h2></div>
+      <div class="feature-grid">
+        <article><h3>Worldwide, in local time</h3><p>Browse launches from every country and show the schedule in your own time zone.</p></article><article><h3>Your country or region first</h3><p>Choose your country or region and its launches are highlighted in the list.</p></article><article><h3>Reminders before liftoff</h3><p>Turn on a reminder for a launch and get a notification before it lifts off. The timing is yours to choose.</p></article><article><h3>English and Japanese</h3><p>The app follows your device language in English or Japanese. No ads, no accounts.</p></article>
+      </div>
+    </section>
+
+    <section class="content-band" id="screenshots">
+      <div class="section-heading"><h2>Screenshots</h2><p class="note">The list, launch details, notification settings and country or region picker. Launches shown are the schedule at the time of capture.</p></div>
+      <div class="shots" role="region" aria-label="Screenshots (scroll sideways)" tabindex="0">
+        <figure class="shot">
+          <img src="images/screenshots/en_01_list.webp" alt="The upcoming launch list. Launches related to the United States are highlighted with an orange border and a US badge, and launches with reminders show a bell" width="600" height="1304" loading="lazy" decoding="async">
+          <figcaption>Launch list</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="images/screenshots/en_02_detail.webp" alt="Details of the Starlink Group 15-15 launch on Falcon 9: launch time in Eastern Daylight Time, an active reminder, and mission and operator information" width="600" height="1304" loading="lazy" decoding="async">
+          <figcaption>Details and reminders</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="images/screenshots/en_03_notifications.webp" alt="Notification settings with timing switches for 24 hours, 1 hour and 5 minutes before launch, showing that notifications are allowed" width="600" height="1304" loading="lazy" decoding="async">
+          <figcaption>Notification settings</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="images/screenshots/en_04_country.webp" alt="The country or region picker with United States selected and checked" width="600" height="1304" loading="lazy" decoding="async">
+          <figcaption>Country or region</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="content-band" id="support">
+      <div class="section-heading">
+        <h2>Support</h2>
+        <p class="note">Questions, bug reports and feedback are welcome at <a href="mailto:info@kamkam.me">info@kamkam.me</a></p>
+      </div>
+      <div class="faq">
+        <details><summary>My notification arrived late, or did not arrive.</summary><p>Notifications are scheduled on your device. On Android, LaunchClock needs the "Alarms &amp; reminders" (exact alarms) permission to deliver reminders on time; without it they may be delayed. Open the device Settings, find LaunchClock under Apps, and allow "Alarms &amp; reminders". Also check that notifications for LaunchClock are allowed and that battery saver is not restricting the app.</p></details><details><summary>The launch time changed, or does not match another site.</summary><p>Launch times are plans and change often because of weather, technical checks or range schedules. When you open the app it loads the latest schedule and reschedules your reminders to match. Open the app now and then, especially close to a launch you care about.</p></details><details><summary>Where does the data come from, and how often is it updated?</summary><p>Launch data comes from The Space Devs (Launch Library 2). The app's data feed is refreshed about every 15 minutes, and the app fetches it when you open it. Accuracy is not guaranteed.</p></details><details><summary>Which information does the app collect?</summary><p>None. See the <a href="privacypolicy.html">Privacy Policy</a>.</p></details>
+      </div>
+    </section>
+
+    <section class="content-band alt" id="sources">
+      <div class="section-heading"><h2>Data sources</h2></div>
+      <p class="note">Launch data is provided by <a href="https://thespacedevs.com/llapi" target="_blank" rel="noopener noreferrer">The Space Devs / Launch Library 2</a>. Its accuracy is not guaranteed, and schedules can change at any time. Country names come from Unicode CLDR. LaunchClock is not affiliated with The Space Devs or any space agency or launch provider.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 KAMKAM</p>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="privacypolicy.html">Privacy Policy</a>
+      <a href="index_jp.html" lang="ja">日本語</a>
+    </div>
+  </footer>
+</body>
+</html>

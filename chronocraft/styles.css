@@ -31,7 +31,7 @@ h1, h2, h3, p, li { overflow-wrap: anywhere; }
 }
 .brand, .nav, .site-footer, .site-footer div { display: flex; align-items: center; }
 .brand { gap: 10px; font-weight: 800; font-size: 1.1rem; color: var(--ink); text-decoration: none; }
-.brand img { border-radius: 22%; box-shadow: 0 8px 24px rgba(255, 107, 61, 0.25); }
+.brand img { border-radius: 22%; box-shadow: 0 8px 24px rgba(212, 175, 55, 0.25); }
 .nav { gap: clamp(12px, 2vw, 28px); font-size: 0.94rem; flex-wrap: wrap; }
 .nav a { color: var(--muted); text-decoration: none; }
 .nav a:hover { color: var(--ink); }
@@ -117,3 +117,24 @@ h3 { margin: 0 0 8px; font-size: 1.15rem; }
 .guide-toc li { margin: 2px 0; }
 .guide-toc a { font-weight: 600; text-decoration: none; }
 .guide-toc a:hover { text-decoration: underline; }
+.guide-shot { margin: 20px auto 24px; max-width: 300px; text-align: center; }
+.guide-shot img {
+  display: block; width: 100%; height: auto; margin: 0 auto;
+  border: 1px solid var(--line); border-radius: 18px; background: var(--bg);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+.guide-shot figcaption { margin-top: 8px; color: var(--muted); font-size: 0.9rem; line-height: 1.5; }
+.guide-shots {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 300px)); justify-content: center;
+  gap: 20px; margin: 20px 0 24px;
+}
+.guide-shots .guide-shot { margin: 0; max-width: none; }
+.guide-shots.watch { grid-template-columns: repeat(3, minmax(0, 190px)); gap: 16px; }
+.guide-shots.watch .guide-shot img { border-radius: 26px; }
+@media (max-width: 680px) {
+  .guide-shots { grid-template-columns: minmax(0, 300px); }
+  .guide-shots.watch { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+  .guide-shots.watch .guide-shot figcaption { font-size: 0.8rem; }
+}
+.guide-shot[id] { scroll-margin-top: 16px; }
+.guide-shot .fig-no { color: var(--ink); font-weight: 700; }
